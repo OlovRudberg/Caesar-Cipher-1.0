@@ -7,7 +7,7 @@ The functions main part is based upon modular arithmetic, more specifically the 
 <img src="https://render.githubusercontent.com/render/math?math=E_{n}(x) = (x %2B n) \ mod \ 26,">
 which is the part that shifts the alphabet. The function also includes a "string cleaning" function
 and if TRUE, a separate alphabetic shift function outputs only the switched letters, if one desires.
-Note, the %+=% operator stems from Python code that have the property <img src="https://render.githubusercontent.com/render/math?math=x+=C \equiv x=x%2BC, \implies x_{new} - x_{old} = C,"> and does NOT exist for R.
+Note, the %+=% operator stems from Python code that have the property <img src="https://render.githubusercontent.com/render/math?math=x+=C \equiv x=x%2BC, \implies x_{new} - x_{old} = C,"> and does NOT exist for base R.
 
 Limitations: For the separate shift function, the shift value must uphold <img src="https://render.githubusercontent.com/render/math?math=\forall%20\x%20\in [-25,25],"> 
 and the main function must have <img src="https://render.githubusercontent.com/render/math?math=x%20\in \Z.">

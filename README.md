@@ -1,7 +1,7 @@
 # Caesar-Cipher-1.0
 ## Simple Caesar Cipher w/ additional shift function
 
-This is an R-programmed Caesar Cihper which shifts the alphabet back or forth and replaces letters with letters in the shifted positions. More info https://en.wikipedia.org/wiki/Caesar_cipher.
+This is an R-programmed Caesar Cipher which shifts the alphabet back or forth and replaces letters with letters in the shifted positions. More info https://en.wikipedia.org/wiki/Caesar_cipher.
 
 The functions main part is based upon modular arithmetic, more specifically the fomula 
 <img src="https://render.githubusercontent.com/render/math?math=E_{n}(x) = (x %2B n) \ mod \ 26,">
